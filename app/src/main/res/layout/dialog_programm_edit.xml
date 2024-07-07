@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/shape_roundcube"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Название программы"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:gravity=""
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="8dp"
+            android:hint="Введите новое название"
+            android:background="@drawable/shape_roundcube_gray"/>
+
+        <TextView
+            android:layout_marginTop="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Комментарий программы"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:gravity=""
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="8dp"
+            android:hint="Введите новое описание"
+            android:background="@drawable/shape_roundcube_gray"/>
+
+        <Button
+            android:layout_marginTop="56dp"
+            android:text="Сохранить"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:backgroundTint="@color/blueKafedra"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="128dp"
+            android:layout_height="56dp"/>
+
+        <TextView
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Удалить программу"
+            android:textSize="14dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

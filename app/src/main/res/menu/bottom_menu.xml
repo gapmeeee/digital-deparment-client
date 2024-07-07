@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/courseFragment2m"
+        android:icon="@drawable/ico_books"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Программа"
+        />
+
+    <item
+        android:id="@+id/profileFragment2m"
+        android:title="Профиль"
+
+        android:icon="@drawable/ico_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <item
+        android:id="@+id/chatBotFragmentm"
+        android:title="Чат бот"
+        android:icon="@drawable/ico_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</menu>

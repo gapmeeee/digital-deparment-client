@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PlitkaCourses">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">108dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:background">@drawable/shape_roundcube</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/darkblueKafedra</item>
+    </style>
+
+    <style name="TaskDescription">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_width">367dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TaskTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
